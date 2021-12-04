@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merienda One", cursive;
+  scroll-behavior: smooth;
+  transform: 0.5s ease;
+}
+.add {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container {
+  position: fixed;
+  width: 45rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid green;
+}
+
+h1 {
+  margin: 0, 1rem;
+  text-align: center;
+  color: #d8640b;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.check-out,
+.cancel {
+  float: right;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  background-color: #ebbe9b;
+  color: rgb(12, 11, 11);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cancel:hover,
+.check-out:hover {
+  border: 2px solid #4d1b0c;
+  font-weight: bolder;
+  background-color: #f0ae9b;
+}
+hr {
+  margin: 0 2rem;
+  color: #772f1a;
+}
+#items {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+li {
+  margin: 1rem 1rem;
+}
+
+.total-summary,
+.total-tax,
+.final-total {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 20px;
+}
+.total {
+  margin-top: 3rem;
+}
+
+#total-price {
+  margin-top: 5rem;
+}
+
+.rm-btn,
+.add-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 3px 5px;
+  border-radius: 5px;
+  background-color: #ebbe9b;
+}
+
+.rm-btn:hover,
+.add-btn:hover {
+  border: 2px solid #772f1a;
+  font-weight: bolder;
+  border-radius: 5px;
+  color: rgb(12, 11, 11);
+  background-color: #f0ae9b;
+}
